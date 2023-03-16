@@ -1,0 +1,31 @@
+_id: req_9f298ef7d6c644018d515baffaaae55b
+type: Request
+parentId: fld_837f419ee5204b2d866cacce8682e238
+modified: 1678736140990
+created: 1678127491364
+url: "{{ _.baseURL }}/categories/import"
+name: Import Categories
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_ccd959f68eab40c1ac7704efefc3c0a9
+      name: ""
+      value: ""
+      description: ""
+      type: file
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8aed7c782a8641d396f600557039d4e8
+authentication: {}
+metaSortKey: -1665491572156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

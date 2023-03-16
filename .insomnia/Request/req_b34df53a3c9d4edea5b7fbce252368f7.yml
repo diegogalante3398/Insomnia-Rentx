@@ -1,0 +1,30 @@
+_id: req_b34df53a3c9d4edea5b7fbce252368f7
+type: Request
+parentId: fld_59b71017be324737b602d24be4d4185a
+modified: 1678127491367
+created: 1678127491367
+url: "{{ _.baseURL }}/specifications"
+name: Create Specifications
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Duas Portas",
+    	"description": "carro duas portas"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b4cf6c09785a4868840c0fc8ce6a529f
+authentication: {}
+metaSortKey: -1663078285032
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
